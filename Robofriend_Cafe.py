@@ -47,7 +47,7 @@ Robot_dict = {
 # A new customer arrives
 print("Welcome to Robofriend Cafe, where coffee comes in cups and friends come in 1s and 0s!")
 visitor = input("What's your name? ")
-choice = input("Which Robofriend would you like to play with? ")
+choice = input("Which Robofriend would you like to play with? (Write r and a number)")
 if choice in Robot_dict:
     friend = Robot_dict.get(choice)
     start_play(visitor, friend)
